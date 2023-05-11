@@ -21,7 +21,7 @@ void Menu()
             case "1":
                 Documento doc = new Documento();
 
-                Console.WriteLine("Digita ai: ");
+                Console.WriteLine("Digita o conteúdo do documento: ");
                 doc.texto = Console.ReadLine();
 
                 impressora.AdicionarImpressao(doc);
